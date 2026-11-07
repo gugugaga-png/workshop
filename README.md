@@ -1,1 +1,94 @@
-# workshop
+# Day 1 - Workshop "Building with AI, Managing Change with GitHub"
+
+**Nama Lengkap:**Lazwardi Aulia
+**Kelompok:**22 - FarCry 5
+**Tanggal Workshop:** 07 November 2026
+**Pemateri:** Nugi Farhan (Senior Product Designer)
+
+---
+
+## Deskripsi Repository
+
+Repository ini berisi dokumentasi kegiatan Day 1 workshop **"Building with AI, Managing Change with GitHub"**, mencakup rangkuman materi, poin-poin penting yang saya pelajari, dan pendapat pribadi saya tentang Day 1 Proyek Workshop.
+
+## Tujuan Repository
+
+- Mendokumentasikan materi dan pengetahuan baru dari workshop Day 1.
+- Melatih penggunaan Git dan GitHub untuk version control.
+- Memenuhi ketentuan tugas Day 1 dari panitia.
+
+## Kegiatan Workshop yang Didokumentasikan
+
+Workshop Day 1 membahas dua topik utama:
+
+1. **Membuat dan mengembangkan dengan AI:** prompt engineering.
+2. **Manajemen perubahan dan kolaborasi:** Git dan GitHub.
+
+Dokumentasi lengkapnya ada di bagian-bagian berikut dalam file ini: Rangkuman Materi, Poin Penting dan Pengetahuan Baru, serta Pendapat Pribadi.
+
+## Daftar Isi
+
+1. [Rangkuman Materi](#1-rangkuman-materi)
+2. [Poin Penting dan Pengetahuan Baru](#2-poin-penting-dan-pengetahuan-baru)
+3. [Pendapat Pribadi tentang Day 1](#3-pendapat-pribadi-tentang-day-1-proyek-workshop)
+
+---
+
+## 1. Rangkuman Materi
+
+### 1.1 Capaian Pembelajaran
+
+- Menjelaskan bagaimana prompt AI yang lebih spesifik menghasilkan hasil yang lebih baik.
+- Membedakan Git dan GitHub.
+- Mengidentifikasi repository, commit, branch, dan pull request.
+- Melakukan version controlling.
+
+### 1.2 Prompt Engineering
+
+**Pengertian.** Prompt engineering adalah cara merancang instruksi agar AI memberikan jawaban yang tepat, relevan, dan layak digunakan. Prompt bisa berupa pertanyaan sederhana, kata kunci, instruksi rumit, atau potongan kode.
+
+**Context is key.** Prompt tanpa konteks (misalnya "Create student task planner") memberi AI terlalu sedikit informasi. Prompt dengan konteks menjelaskan peran, tujuan, kebutuhan, dan batasan sehingga hasilnya lebih sesuai.
+
+**Struktur prompt yang baik:**
+
+| Komponen | Fungsi | Contoh dari workshop |
+|---|---|---|
+| Role | Peran yang diminta dari AI | "You are helping me build a beginner-friendly student task planner..." |
+| Task | Tugas yang dikerjakan | Membuat task planner untuk mahasiswa baru |
+| Context | Kebutuhan dan batasan | Daftar tugas, filter, hanya HTML, CSS, vanilla JS |
+| Format | Bentuk output | Kode lengkap tiap file, cara menjalankan, cara menguji |
+
+**Taktik menulis prompt** (sumber: Google Cloud, *What is prompt engineering*):
+
+- Gunakan kata kerja aksi untuk menentukan tindakan yang diinginkan.
+- Tentukan panjang dan format output.
+- Tentukan target audiens.
+- Sertakan fakta dan data yang relevan.
+- Rujuk sumber atau dokumen tertentu.
+- Definisikan istilah dan konsep kunci.
+
+**Keuntungan prompt engineering:** meningkatkan performa model AI, mengurangi bias dan respons yang offensive, meningkatkan kontrol dan predictability, serta memberikan pengalaman yang lebih baik.
+
+### 1.3 Git dan GitHub
+
+**Git** adalah sistem version control terdistribusi (DVCS) yang melacak siapa, kapan, dan apa yang berubah dalam sebuah file. Git dibuat oleh Linus Torvalds pada tahun 2005 dan bekerja secara lokal.
+
+**GitHub** adalah platform berbasis web untuk menyimpan repository Git secara online dan mendukung kolaborasi.
+
+**Alur kerja Git:**
+
+| Area | Penjelasan |
+|---|---|
+| Working Directory | Salinan satu versi proyek yang sedang dikerjakan di komputer |
+| Staging Area (index) | Menyimpan informasi perubahan yang akan masuk ke commit berikutnya |
+| Git Directory (Repository) | Tempat Git menyimpan metadata dan object database proyek; bagian ini yang disalin saat clone |
+
+Alurnya: Working Directory → (`git add`) → Staging Area → (`git commit`) → Repository.
+
+### 1.4 Perintah Dasar Git
+
+| Perintah | Fungsi |
+|---|---|
+| `git init` | Memulai repository baru |
+| `git clone "url"` | Menyalin repository dari GitHub ke komputer |
+| `git add .` |
