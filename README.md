@@ -1,8 +1,8 @@
 # Day 1 - Workshop "Building with AI, Managing Change with GitHub"
 
-**Nama Lengkap:** [isi nama lengkapmu]
-**Kelompok:** [isi nama kelompok]
-**Tanggal Workshop:** [isi tanggal]
+**Nama Lengkap:** Lazwardi Aulia
+**Kelompok:** 22 - Far Cry 5
+**Tanggal Workshop:** 07 November 2026
 **Pemateri:** Nugi Farhan (Senior Product Designer)
 
 ---
