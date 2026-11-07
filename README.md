@@ -1,8 +1,8 @@
 # Day 1 - Workshop "Building with AI, Managing Change with GitHub"
 
-**Nama Lengkap:**Lazwardi Aulia
-**Kelompok:**22 - FarCry 5
-**Tanggal Workshop:** 07 November 2026
+**Nama Lengkap:** [isi nama lengkapmu]
+**Kelompok:** [isi nama kelompok]
+**Tanggal Workshop:** [isi tanggal]
 **Pemateri:** Nugi Farhan (Senior Product Designer)
 
 ---
@@ -91,4 +91,40 @@ Alurnya: Working Directory → (`git add`) → Staging Area → (`git commit`) �
 |---|---|
 | `git init` | Memulai repository baru |
 | `git clone "url"` | Menyalin repository dari GitHub ke komputer |
-| `git add .` |
+| `git add .` | Memindahkan perubahan ke staging area |
+| `git commit -m "pesan"` | Menyimpan perubahan ke repository |
+| `git remote add <name> <url>` | Menghubungkan repository lokal ke remote (GitHub) |
+| `git push origin main` | Mengirim commit dari branch lokal ke GitHub |
+| `git pull origin main` | Mengambil perubahan dari GitHub dan menggabungkannya ke branch saat ini |
+
+### 1.5 Setup yang Dilakukan
+
+1. Install Git, lalu cek dengan `git --version`.
+2. Atur identitas Git:
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your-email@example.com"
+   ```
+3. Install VS Code dan aktifkan perintah `code` di terminal.
+4. Buat SSH key dengan `ssh-keygen -t ed25519 -C "email@domain.com"`, tambahkan public key ke GitHub (*Settings → SSH and GPG keys*), lalu verifikasi dengan `ssh -T git@github.com`.
+
+### 1.6 Proyek Workshop: Student Task Planner
+
+Proyek latihan berupa aplikasi web sederhana untuk mencatat tugas dan deadline mahasiswa. Alurnya: pasang platform AI, tulis prompt untuk membuat aplikasinya, `git init`, commit dan push ke GitHub, lakukan perubahan, lalu commit dan push lagi.
+
+---
+
+## 2. Poin Penting dan Pengetahuan Baru
+
+- **Prompt yang spesifik menghasilkan hasil lebih baik.** [ceritakan dengan kata-katamu]
+- **Struktur Role, Task, Context, Format** membantu menyusun prompt secara runtut. [tambahkan pengalamanmu]
+- **Git dan GitHub itu berbeda.** Git melacak perubahan secara lokal, GitHub menyimpannya online untuk kolaborasi.
+- **Ada staging area** di antara working directory dan repository, sehingga kita bisa memilih perubahan mana yang masuk ke commit.
+- **SSH key** memungkinkan koneksi ke GitHub tanpa memasukkan password setiap kali push atau pull.
+- [tambahkan poin lain yang benar-benar baru bagimu]
+
+---
+
+## 3. Pendapat Pribadi tentang Day 1 Proyek Workshop
+
+[Tulis 1-3 paragraf dengan kata-katamu sendiri. Beberapa pertanyaan pemandu: bagian mana yang paling membantu, bagian mana yang paling sulit dan bagaimana mengatasinya, apa yang berubah dari caramu memakai AI atau mengelola file, dan apa harapanmu untuk hari-hari berikutnya. Hapus teks dalam kurung ini setelah selesai.]
