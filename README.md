@@ -116,12 +116,12 @@ Proyek latihan berupa aplikasi web sederhana untuk mencatat tugas dan deadline m
 
 ## 2. Poin Penting dan Pengetahuan Baru
 
-- **Prompt yang spesifik menghasilkan hasil lebih baik.** [ceritakan dengan kata-katamu]
-- **Struktur Role, Task, Context, Format** membantu menyusun prompt secara runtut. [tambahkan pengalamanmu]
+- **Prompt yang spesifik menghasilkan hasil lebih baik.** Prompt singkat seperti "Create student task planner" membuat AI menebak-nebak kebutuhan kita, sedangkan prompt yang menjelaskan tujuan, kebutuhan, dan batasan menghasilkan jawaban yang lebih sesuai.
+- **Struktur Role, Task, Context, Format** membantu menyusun prompt secara runtut, sehingga tidak ada informasi penting yang terlewat saat meminta sesuatu ke AI.
 - **Git dan GitHub itu berbeda.** Git melacak perubahan secara lokal, GitHub menyimpannya online untuk kolaborasi.
 - **Ada staging area** di antara working directory dan repository, sehingga kita bisa memilih perubahan mana yang masuk ke commit.
 - **SSH key** memungkinkan koneksi ke GitHub tanpa memasukkan password setiap kali push atau pull.
-- [tambahkan poin lain yang benar-benar baru bagimu]
+- **Pesan commit perlu jelas**, karena riwayat commit adalah catatan perubahan yang akan dibaca anggota tim lain.
 
 ---
 
