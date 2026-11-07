@@ -127,4 +127,8 @@ Proyek latihan berupa aplikasi web sederhana untuk mencatat tugas dan deadline m
 
 ## 3. Pendapat Pribadi tentang Day 1 Proyek Workshop
 
-[Tulis 1-3 paragraf dengan kata-katamu sendiri. Beberapa pertanyaan pemandu: bagian mana yang paling membantu, bagian mana yang paling sulit dan bagaimana mengatasinya, apa yang berubah dari caramu memakai AI atau mengelola file, dan apa harapanmu untuk hari-hari berikutnya. Hapus teks dalam kurung ini setelah selesai.]
+Menurut saya, workshop hari ini berjalan baik karena pemateri menyampaikan materi dengan sangat jelas, mulai dari prompt engineering sampai konsep Git dan GitHub. Penjelasan yang runtut membuat materi yang awalnya terasa teknis jadi lebih mudah dipahami.
+
+Namun, pada sesi praktik terdapat kendala. Praktik mengharuskan peserta menginstal beberapa perangkat seperti Git, sementara sinyal di lokasi workshop sulit didapat. Kendala jaringan ini cukup menghambat proses instalasi dan membuat praktik tidak berjalan semulus penyampaian materinya.
+
+Meski begitu, saya melihat penggunaan Git sangat penting bagi mahasiswa TIK. Git mempermudah workflow kerja sama dalam tim, karena setiap perubahan tercatat dan bisa dikelola bersama tanpa saling menimpa pekerjaan. Saya berharap pada hari-hari berikutnya instalasi bisa disiapkan lebih awal, sehingga waktu workshop bisa fokus ke praktik.
